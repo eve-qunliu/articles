@@ -1,0 +1,21 @@
+package: github.com/eve-qunliu/articles
+import:
+- package: github.com/gorilla/mux
+  version: ~1.6.2
+- package: github.com/lib/pq
+- package: github.com/jmoiron/sqlx
+- package: github.com/kelseyhightower/envconfig
+  version: ~1.3.0
+- package: github.com/pkg/errors
+  version: ~0.8.0
+- package: go.uber.org/zap
+  version: ~1.8.0
+- package: go.uber.org/atomic
+  version: ~1.3.2
+- package: github.com/stretchr/testify
+  version: ^1.2.2
+  subpackages:
+  - mock
+  - assert
+- package: gopkg.in/DATA-DOG/go-sqlmock.v1
+  version: ^1.3.0
